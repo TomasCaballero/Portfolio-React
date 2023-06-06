@@ -24,11 +24,11 @@ const Estudios = () => {
                     <div className="certificadosYCV" id="scrollspyHeading4">
                         <div className="certificados">
                             <a href="https://www.coderhouse.com/certificados/62b0fe027c15120021c67340" className="item"
-                                target="_blank" rel="noopener noreferrer"><img src="src\assets\certificados\desarrolloweb.png" alt="CERTIFICADO DESARROLLO WEB" /></a>
+                                target="_blank" rel="noopener noreferrer"><img src="https://live.staticflickr.com/65535/52954548565_cca4b04b96_c.jpg" alt="CERTIFICADO DESARROLLO WEB" /></a>
                             <a href="https://www.coderhouse.com/certificados/63028ded2f4a900024460970" className="item"
-                                target="_blank" rel="noopener noreferrer"><img src="src\assets\certificados\js.png" alt="CERTIFICADO JS" /></a>
+                                target="_blank" rel="noopener noreferrer"><img src="https://live.staticflickr.com/65535/52953570627_734b56b225_c.jpg" alt="CERTIFICADO JS" /></a>
                             <a href="https://www.coderhouse.com/certificados/6368a279e6706a000fb9f23e" className="item"
-                                target="_blank" rel="noopener noreferrer"><img src="src\assets\certificados\reactjs.png" alt="CERTIFICADO REACT_JS" /></a>
+                                target="_blank" rel="noopener noreferrer"><img src="https://live.staticflickr.com/65535/52953570637_414d08d3b8_c.jpg" alt="CERTIFICADO REACT_JS" /></a>
                         </div>
                     </div>
                 </div>
