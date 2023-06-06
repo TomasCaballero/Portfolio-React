@@ -29,6 +29,26 @@ body .portfolio .paginaCarga .textoYSpinner {
 body .portfolio .paginaCarga .textoYSpinner h5 {
   color: white;
 }
+body .portfolio .paginaCarga .textoYSpinner .animacionPuntos {
+  display: block;
+  color: white;
+  font-family: monospace;
+  white-space: nowrap;
+  border-right: 1px solid;
+  width: 3ch;
+  animation: typing 1s steps(3), blink 0.5s infinite step-end alternate;
+  overflow: hidden;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
 body .portfolio .paginaCarga .textoYSpinner img {
   width: 30px;
 }
@@ -52,7 +72,7 @@ body .portfolio .navBar .img {
   border-radius: 50%;
 }
 body .portfolio .navBar .img .foto {
-  background-image: url("src/assets/Img/tomi.jpg");
+  background-image: url("https://live.staticflickr.com/65535/52953576127_d543ea312b.jpg");
   background-position: center;
   background-size: cover;
   width: 100px;
@@ -128,7 +148,7 @@ body .portfolio main .inicio {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url("src/assets/bg/liviana.webp");
+  background-image: url("https://live.staticflickr.com/65535/52953570357_b307097356_h.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

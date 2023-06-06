@@ -27,6 +27,23 @@ body{
                 h5{
                     color: white;
                 }
+                .animacionPuntos{
+                    display: block;
+                    color: white;
+                    font-family: monospace;
+                    white-space: nowrap;
+                    border-right: 1px solid;
+                    width: 3ch;
+                    animation: typing 1s steps(3),
+                            blink .5s infinite step-end alternate;
+                    overflow: hidden;
+                }
+                @keyframes typing {
+                    from {width: 0}
+                }
+                @keyframes blink {
+                    50% { border-color: transparent}
+                }
                 img{
                     width: 30px;
                 }

@@ -35,14 +35,6 @@ function App() {
 
   // Funciones de carga progresiva de cada sección
   const cargarInicio = () => {
-    // return new Promise((resolve) => {
-    //   const imagen = new Image();
-    //   imagen.src = 'src/assets/bg/liviana.webp';
-    //   imagen.onload = () => {
-    //     setImagenesCargadas(true);
-    //     resolve();
-    //   };
-    // });
     return new Promise((resolve) => {
       setTimeout(resolve, 400);
     });
