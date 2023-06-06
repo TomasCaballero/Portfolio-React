@@ -148,7 +148,7 @@ body .portfolio main .inicio {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url("https://live.staticflickr.com/65535/52953570357_b307097356_h.jpg");
+  background-image: url("https://img.freepik.com/foto-gratis/experiencia-programacion-persona-que-trabaja-codigos-computadora_23-2150010125.jpg?w=996&t=st=1686078243~exp=1686078843~hmac=88c7814b60931f4028021294dcc76389a642b412c812c8ce6383d99c0640f7dd");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -164,23 +164,25 @@ body .portfolio main .inicio .container {
   justify-content: center;
 }
 body .portfolio main .inicio .container .nombre {
-  color: black;
+  color: rgba(0, 0, 0, 0.9);
   display: flex;
   gap: 8px;
   font-size: 50px;
   font-weight: 600;
   text-align: center;
+  text-shadow: rgb(255, 255, 255) 1px 0 10px;
 }
 body .portfolio main .inicio .container .nombre p {
   text-align: center;
   font-style: oblique;
 }
 body .portfolio main .inicio .container .dedicacion {
-  color: black;
+  color: rgba(0, 0, 0, 0.9);
   font-size: 50px;
   font-weight: 600;
   font-style: oblique;
   text-align: center;
+  text-shadow: rgb(255, 255, 255) 1px 0 10px;
 }
 body .portfolio main .sobreMi {
   display: flex;
@@ -366,7 +368,6 @@ body .portfolio main .skills .container .tecnologias .herramientas .contenedorHe
 }
 body .portfolio main .skills .container .tecnologias .herramientas .contenedorHerramientas .contenedor img {
   width: 50px;
-  background-color: rgb(209, 209, 209);
   border-radius: 12px;
 }
 body .portfolio main .skills .container .tecnologias .herramientas .contenedorHerramientas .contenedor .vscBg {

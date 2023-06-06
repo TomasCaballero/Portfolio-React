@@ -9,10 +9,10 @@ const Sitios = () => {
                     <div className="contenidoCard">
                         <div className="nombreDelSitio"><strong>Sitio:</strong> Kinefi</div>
                         <p className="tecnologias"><strong>Tecnologias:</strong> <img
-                            src="src\assets\iconosTecnologias\html-5.png" alt="HTML5" />HTML5 / <img
-                                src="src\assets\iconosTecnologias\css-3.png" alt="CSS3" />CSS3 / <img
-                                src="src\assets\iconosTecnologias\sass.png" alt="SASS" />SASS / <img
-                                src="src\assets\iconosTecnologias\bootstrap.png" alt="BOOTSTRAP" />BOOTSTRAP</p>
+                            src="https://cdn-icons-png.flaticon.com/512/226/226269.png?w=740&t=st=1686076708~exp=1686077308~hmac=d6b322da36aaa9d65bb487f938a5fd6fb3b385efe2f6a8cd1654b4304fe3d167" alt="HTML5" />HTML5 / <img
+                                src="https://img.freepik.com/iconos-gratis/css-3_318-566055.jpg?t=st=1686076708~exp=1686077308~hmac=b1f904214c7ac824acb4ff490ca3335017ea1fa21c8b6ecc9752051e4c3c2d5a" alt="CSS3" />CSS3 / <img
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/1280px-Sass_Logo_Color.svg.png" alt="SASS" />SASS / <img
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1024px-Bootstrap_logo.svg.png" alt="BOOTSTRAP" />BOOTSTRAP</p>
                         <div className="repo"><a href="https://github.com/TomasCaballero/Kinefi_Caballero"
                             target="_blank" rel="noopener noreferrer"><strong><span>Repositorio</span></strong></a></div>
                     </div>
@@ -23,10 +23,10 @@ const Sitios = () => {
                     <div className="contenidoCard">
                         <div className="nombreDelSitio"><strong>Sitio:</strong> Moncho Clothing</div>
                         <p className="tecnologias"><strong>Tecnologias:</strong> <img
-                            src="src\assets\iconosTecnologias\html-5.png" alt="HTML5" />HTML5 / <img
-                                src="src\assets\iconosTecnologias\css-3.png" alt="CSS3" />CSS3 / <img
-                                src="src\assets\iconosTecnologias\sass.png" alt="SASS" />SASS / <img
-                                src="src\assets\iconosTecnologias\js.png" alt="JS" />JavaScript</p>
+                            src="https://cdn-icons-png.flaticon.com/512/226/226269.png?w=740&t=st=1686076708~exp=1686077308~hmac=d6b322da36aaa9d65bb487f938a5fd6fb3b385efe2f6a8cd1654b4304fe3d167" alt="HTML5" />HTML5 / <img
+                                src="https://img.freepik.com/iconos-gratis/css-3_318-566055.jpg?t=st=1686076708~exp=1686077308~hmac=b1f904214c7ac824acb4ff490ca3335017ea1fa21c8b6ecc9752051e4c3c2d5a" alt="CSS3" />CSS3 / <img
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/1280px-Sass_Logo_Color.svg.png" alt="SASS" />SASS / <img
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/800px-Unofficial_JavaScript_logo_2.svg.png" alt="JS" />JavaScript</p>
                         <div className="repo"><a href="https://github.com/TomasCaballero/Moncho_Caballero"
                             target="_blank" rel="noopener noreferrer"><strong><span>Repositorio</span></strong></a></div>
                     </div>
@@ -37,10 +37,10 @@ const Sitios = () => {
                     <div className="contenidoCard">
                         <div className="nombreDelSitio"><strong>Sitio:</strong> MiTech</div>
                         <p className="tecnologias"><strong>Tecnologias:</strong> <img
-                            src="src\assets\iconosTecnologias\html-5.png" alt="HTML5" />HTML5 / <img
-                                src="src\assets\iconosTecnologias\css-3.png" alt="CSS3" />CSS3 / <img
-                                src="src\assets\iconosTecnologias\js.png" alt="JS" />JavaScript / <img
-                                src="src\assets\iconosTecnologias\react.png" alt="REACT_JS" />React JS</p>
+                            src="https://cdn-icons-png.flaticon.com/512/226/226269.png?w=740&t=st=1686076708~exp=1686077308~hmac=d6b322da36aaa9d65bb487f938a5fd6fb3b385efe2f6a8cd1654b4304fe3d167" alt="HTML5" />HTML5 / <img
+                                src="https://img.freepik.com/iconos-gratis/css-3_318-566055.jpg?t=st=1686076708~exp=1686077308~hmac=b1f904214c7ac824acb4ff490ca3335017ea1fa21c8b6ecc9752051e4c3c2d5a" alt="CSS3" />CSS3 / <img
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/800px-Unofficial_JavaScript_logo_2.svg.png" alt="JS" />JavaScript / <img
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/1024px-React.svg.png" alt="REACT_JS" />React JS</p>
                         <div className="repo"><a href="https://github.com/TomasCaballero/MiTechReact-Caballero"
                             target="_blank" rel="noopener noreferrer"><strong><span>Repositorio</span></strong></a></div>
                     </div>
@@ -51,10 +51,10 @@ const Sitios = () => {
                     <div className="contenidoCard">
                         <div className="nombreDelSitio"><strong>Sitio:</strong> SneakerNation</div>
                         <p className="tecnologias"><strong>Tecnologias:</strong> <img
-                            src="src\assets\iconosTecnologias\html-5.png" alt="HTML5" />HTML5 / <img
-                                src="src\assets\iconosTecnologias\sass.png" alt="SASS" />SASS / <img
-                                src="src\assets\iconosTecnologias\js.png" alt="JS" />JavaScript / <img
-                                src="src\assets\iconosTecnologias\react.png" alt="REACT_JS" />React JS</p>
+                            src="https://cdn-icons-png.flaticon.com/512/226/226269.png?w=740&t=st=1686076708~exp=1686077308~hmac=d6b322da36aaa9d65bb487f938a5fd6fb3b385efe2f6a8cd1654b4304fe3d167" alt="HTML5" />HTML5 / <img
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/1280px-Sass_Logo_Color.svg.png" alt="SASS" />SASS / <img
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/800px-Unofficial_JavaScript_logo_2.svg.png" alt="JS" />JavaScript / <img
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/1024px-React.svg.png" alt="REACT_JS" />React JS</p>
                         <div className="repo"><a href="https://github.com/TomasCaballero/SneakerNation"
                             target="_blank" rel="noopener noreferrer"><strong><span>Repositorio</span></strong></a></div>
                     </div>
@@ -65,10 +65,10 @@ const Sitios = () => {
                     <div className="contenidoCard">
                         <div className="nombreDelSitio"><strong>Sitio:</strong> Pokedex</div>
                         <p className="tecnologias"><strong>Tecnologias:</strong> <img
-                            src="src\assets\iconosTecnologias\html-5.png" alt="HTML5" />HTML5 / <img
-                                src="src\assets\iconosTecnologias\css-3.png" alt="CSS3" />CSS3 / <img
-                                src="src\assets\iconosTecnologias\sass.png" alt="SASS" />SASS / <img
-                                src="src\assets\iconosTecnologias\js.png" alt="JS" />JavaScript</p>
+                            src="https://cdn-icons-png.flaticon.com/512/226/226269.png?w=740&t=st=1686076708~exp=1686077308~hmac=d6b322da36aaa9d65bb487f938a5fd6fb3b385efe2f6a8cd1654b4304fe3d167" alt="HTML5" />HTML5 / <img
+                                src="https://img.freepik.com/iconos-gratis/css-3_318-566055.jpg?t=st=1686076708~exp=1686077308~hmac=b1f904214c7ac824acb4ff490ca3335017ea1fa21c8b6ecc9752051e4c3c2d5a" alt="CSS3" />CSS3 / <img
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/1280px-Sass_Logo_Color.svg.png" alt="SASS" />SASS / <img
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/800px-Unofficial_JavaScript_logo_2.svg.png" alt="JS" />JavaScript</p>
                         <div className="repo"><a href="https://github.com/TomasCaballero/Pokedex-pokeapi"
                             target="_blank" rel="noopener noreferrer"><strong><span>Repositorio</span></strong></a></div>
                     </div>
@@ -79,9 +79,9 @@ const Sitios = () => {
                     <div className="contenidoCard">
                         <div className="nombreDelSitio"><strong>Sitio:</strong> Trabajo Universitario</div>
                         <p className="tecnologias"><strong>Tecnologias:</strong> <img
-                            src="src\assets\iconosTecnologias\html-5.png" alt="HTML5" />HTML5 / <img
-                                src="src\assets\iconosTecnologias\css-3.png" alt="CSS3" />CSS3 / <img
-                                src="src\assets\iconosTecnologias\sass.png" alt="SASS" />SASS</p>
+                            src="https://cdn-icons-png.flaticon.com/512/226/226269.png?w=740&t=st=1686076708~exp=1686077308~hmac=d6b322da36aaa9d65bb487f938a5fd6fb3b385efe2f6a8cd1654b4304fe3d167" alt="HTML5" />HTML5 / <img
+                                src="https://img.freepik.com/iconos-gratis/css-3_318-566055.jpg?t=st=1686076708~exp=1686077308~hmac=b1f904214c7ac824acb4ff490ca3335017ea1fa21c8b6ecc9752051e4c3c2d5a" alt="CSS3" />CSS3 / <img
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/1280px-Sass_Logo_Color.svg.png" alt="SASS" />SASS</p>
                         <div className="repo2"><a href="https://github.com/TomasCaballero/Abp-HandOff"
                             target="_blank" rel="noopener noreferrer"><strong><span>Repositorio</span></strong></a></div>
                     </div>
