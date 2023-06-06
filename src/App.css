@@ -1,0 +1,712 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+body .portfolio {
+  font-family: "Source Sans Pro", sans-serif;
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+}
+body .portfolio .paginaCarga {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+body .portfolio .paginaCarga .textoYSpinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+}
+body .portfolio .paginaCarga .textoYSpinner h5 {
+  color: white;
+}
+body .portfolio .paginaCarga .textoYSpinner img {
+  width: 30px;
+}
+body .portfolio .paginaCarga .imgCarga {
+  width: 200px;
+}
+body .portfolio .navBar {
+  position: fixed;
+  left: 0;
+  background-color: rgb(36, 36, 36);
+  width: 20%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+body .portfolio .navBar .img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+body .portfolio .navBar .img .foto {
+  background-image: url("src/assets/Img/tomi.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: solid 4px;
+  border-color: rgb(64, 64, 64);
+}
+body .portfolio .navBar .img .foto:hover {
+  transition: all 1000ms;
+  border-color: white;
+}
+body .portfolio .navBar nav {
+  margin-left: -10px;
+  margin-top: -30px;
+  color: white;
+}
+body .portfolio .navBar nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-left: -80px;
+}
+body .portfolio .navBar nav ul li {
+  list-style: none;
+}
+body .portfolio .navBar nav ul li a {
+  text-decoration: none;
+  color: rgb(209, 209, 209);
+  padding: 3px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+body .portfolio .navBar nav ul li a img {
+  display: none;
+  width: 30px;
+}
+body .portfolio .navBar nav ul li a p {
+  font-size: 20px;
+}
+body .portfolio .navBar nav ul li a:hover {
+  transition: all 500ms;
+  color: rgb(247, 247, 247);
+  text-shadow: white -1px 0;
+}
+body .portfolio .navBar .redes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+}
+body .portfolio .navBar .redes a img {
+  width: 35px;
+  background-color: rgb(99, 99, 99);
+  border-radius: 5px;
+  padding: 5px;
+}
+body .portfolio .navBar .redes a img:hover {
+  transition: all 500ms;
+  background-color: rgb(247, 247, 247);
+}
+body .portfolio main {
+  background-color: black;
+  min-height: 100vh;
+  width: 80%;
+  margin-left: 20%;
+}
+body .portfolio main .inicio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("src/assets/bg/liviana.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+body .portfolio main .inicio .container {
+  width: 75vw;
+  height: 90vh;
+  background-color: rgba(221, 221, 221, 0.72);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body .portfolio main .inicio .container .nombre {
+  color: black;
+  display: flex;
+  gap: 8px;
+  font-size: 50px;
+  font-weight: 600;
+  text-align: center;
+}
+body .portfolio main .inicio .container .nombre p {
+  text-align: center;
+  font-style: oblique;
+}
+body .portfolio main .inicio .container .dedicacion {
+  color: black;
+  font-size: 50px;
+  font-weight: 600;
+  font-style: oblique;
+  text-align: center;
+}
+body .portfolio main .sobreMi {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(26, 26, 26);
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+body .portfolio main .sobreMi .container {
+  width: 75vw;
+  height: 90vh;
+  background-color: rgb(36, 36, 36);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+body .portfolio main .sobreMi .container .titulo {
+  padding-top: 20px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.814);
+  animation: color-animation 3s linear infinite;
+}
+body .portfolio main .sobreMi .container .descripcion {
+  color: white;
+}
+body .portfolio main .sobreMi .container .datosEInteres {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  color: white;
+}
+body .portfolio main .sobreMi .container .datosEInteres .datos {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+body .portfolio main .sobreMi .container .datosEInteres .datos .titulo {
+  font-weight: 900;
+}
+body .portfolio main .sobreMi .container .datosEInteres .datos .nacionalidad, body .portfolio main .sobreMi .container .datosEInteres .datos .nacimiento, body .portfolio main .sobreMi .container .datosEInteres .datos .ubicacion, body .portfolio main .sobreMi .container .datosEInteres .datos .email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+body .portfolio main .sobreMi .container .datosEInteres .interes {
+  width: 50%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+body .portfolio main .sobreMi .container .datosEInteres .interes .titulo {
+  font-weight: 900;
+}
+body .portfolio main .sobreMi .container .datosEInteres .interes .contenidoInteres {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+body .portfolio main .sobreMi .container .datosEInteres .interes .contenidoInteres .box {
+  width: 90px;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: rgb(78, 71, 71);
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.387);
+  border-radius: 10px;
+}
+body .portfolio main .skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(0, 0, 0);
+  min-height: 100vh;
+}
+body .portfolio main .skills .container {
+  width: 75vw;
+  height: 90vh;
+  background-color: rgba(56, 56, 56, 0.306);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+body .portfolio main .skills .container .titulo {
+  padding-top: 20px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.814);
+  animation: color-animation 3s linear infinite;
+}
+body .portfolio main .skills .container .tecnologias {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+body .portfolio main .skills .container .tecnologias .lenguajes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.814);
+}
+body .portfolio main .skills .container .tecnologias .lenguajes .contenedorLenguajes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+body .portfolio main .skills .container .tecnologias .lenguajes .contenedorLenguajes .contenedor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .portfolio main .skills .container .tecnologias .lenguajes .contenedorLenguajes .contenedor img {
+  width: 50px;
+}
+body .portfolio main .skills .container .tecnologias .lenguajes .contenedorLenguajes .contenedor p {
+  color: rgba(255, 255, 255, 0.814);
+}
+body .portfolio main .skills .container .tecnologias .librerias {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.814);
+}
+body .portfolio main .skills .container .tecnologias .librerias .contenedorLibrerias {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+body .portfolio main .skills .container .tecnologias .librerias .contenedorLibrerias .contenedor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .portfolio main .skills .container .tecnologias .librerias .contenedorLibrerias .contenedor img {
+  width: 50px;
+}
+body .portfolio main .skills .container .tecnologias .librerias .contenedorLibrerias .contenedor p {
+  color: rgba(255, 255, 255, 0.814);
+}
+body .portfolio main .skills .container .tecnologias .herramientas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.814);
+}
+body .portfolio main .skills .container .tecnologias .herramientas .contenedorHerramientas {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+body .portfolio main .skills .container .tecnologias .herramientas .contenedorHerramientas .contenedor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .portfolio main .skills .container .tecnologias .herramientas .contenedorHerramientas .contenedor img {
+  width: 50px;
+  background-color: rgb(209, 209, 209);
+  border-radius: 12px;
+}
+body .portfolio main .skills .container .tecnologias .herramientas .contenedorHerramientas .contenedor .vscBg {
+  width: 50px;
+  background: none;
+}
+body .portfolio main .skills .container .tecnologias .herramientas .contenedorHerramientas .contenedor p {
+  color: rgba(255, 255, 255, 0.814);
+}
+body .portfolio main .skills .container .tecnologias .herramientas .contenedorHerramientas .contenedorFigma {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .portfolio main .skills .container .tecnologias .herramientas .contenedorHerramientas .contenedorFigma .figma {
+  width: 30px;
+  background: none;
+}
+body .portfolio main .sitios {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(26, 26, 26);
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+body .portfolio main .sitios .misSitios {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+body .portfolio main .sitios .misSitios .card {
+  background-color: rgba(255, 255, 255, 0.306);
+  width: 250px;
+  height: 220px;
+  box-shadow: 0px 26px 30px -22px black;
+  border-radius: 10px;
+  padding: 10px;
+  color: rgb(247, 247, 247);
+}
+body .portfolio main .sitios .misSitios .card a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .portfolio main .sitios .misSitios .card a img {
+  height: 100px;
+  width: 220px;
+  border: solid black 0px;
+  border-radius: 5px;
+}
+body .portfolio main .sitios .misSitios .card .contenidoCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  font-size: small;
+}
+body .portfolio main .sitios .misSitios .card .contenidoCard .nombreDelSitio {
+  padding-top: 5px;
+}
+body .portfolio main .sitios .misSitios .card .contenidoCard .tecnologias {
+  max-width: 240px;
+  text-align: center;
+}
+body .portfolio main .sitios .misSitios .card .contenidoCard .tecnologias img {
+  width: 12px;
+  margin-top: -3px;
+}
+body .portfolio main .sitios .misSitios .card .contenidoCard .repo {
+  font-size: 10px;
+  margin-top: -22px;
+}
+body .portfolio main .sitios .misSitios .card .contenidoCard .repo a {
+  text-decoration: none;
+  background-color: rgb(74, 74, 74);
+  padding: 7px;
+  border-radius: 10px;
+  color: white;
+}
+body .portfolio main .sitios .misSitios .card .contenidoCard .repo a:hover {
+  transition: all 1000ms;
+  background-color: rgb(26, 26, 26);
+}
+body .portfolio main .sitios .misSitios .card .contenidoCard .repo2 {
+  font-size: 10px;
+  margin-top: -3px;
+}
+body .portfolio main .sitios .misSitios .card .contenidoCard .repo2 a {
+  text-decoration: none;
+  background-color: rgb(74, 74, 74);
+  padding: 7px;
+  border-radius: 10px;
+  color: white;
+}
+body .portfolio main .sitios .misSitios .card .contenidoCard .repo2 a:hover {
+  transition: all 1000ms;
+  background-color: rgb(26, 26, 26);
+}
+body .portfolio main .estudios {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+body .portfolio main .estudios .container {
+  width: 75vw;
+  height: 90vh;
+  background-color: rgba(255, 255, 255, 0.062);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 9rem;
+}
+body .portfolio main .estudios .container .cursos {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+body .portfolio main .estudios .container .cursos .finalizados {
+  color: rgba(255, 255, 255, 0.814);
+}
+body .portfolio main .estudios .container .cursos .finalizados .misCursos {
+  padding-left: 2rem;
+}
+body .portfolio main .estudios .container .cursos .finalizados .misCursos div {
+  display: flex;
+  align-items: center;
+}
+body .portfolio main .estudios .container .cursos .finalizados .misCursos div img {
+  width: 70px;
+}
+body .portfolio main .estudios .container .cursos .enCurso {
+  color: rgba(255, 255, 255, 0.814);
+}
+body .portfolio main .estudios .container .cursos .enCurso .misCursos {
+  padding-left: 2rem;
+}
+body .portfolio main .estudios .container .cursos .enCurso .misCursos div {
+  display: flex;
+  align-items: center;
+}
+body .portfolio main .estudios .container .cursos .enCurso .misCursos div img {
+  width: 70px;
+}
+body .portfolio main .estudios .container .cursos .enCurso .misCursos div .utn {
+  background-color: white;
+  padding: 1px;
+  border-radius: 2px;
+  width: 30px;
+}
+body .portfolio main .estudios .container .certi .certificadosYCV {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 8rem;
+  flex-wrap: wrap;
+}
+body .portfolio main .estudios .container .certi .certificadosYCV .certificados {
+  display: flex;
+  overflow-x: scroll;
+  padding-bottom: 5px;
+  width: 287px;
+  scroll-snap-type: x mandatory;
+  scroll-padding: 24px;
+  border-radius: 8px;
+  gap: 12px;
+}
+body .portfolio main .estudios .container .certi .certificadosYCV .certificados .item {
+  flex: 0 0 100%;
+  border-radius: 8px;
+  scroll-snap-align: start;
+}
+body .portfolio main .estudios .container .certi .certificadosYCV .certificados .item img {
+  width: 287px;
+}
+@media (min-width: 482px) {
+  body .portfolio main .estudios .container .certi .certificadosYCV .certificados {
+    width: 400px;
+  }
+  body .portfolio main .estudios .container .certi .certificadosYCV .certificados .item img {
+    width: 400px;
+  }
+}
+body .portfolio main .estudios .container .redes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  display: none;
+}
+body .portfolio main .estudios .container .redes a img {
+  width: 35px;
+  background-color: rgb(99, 99, 99);
+  border-radius: 5px;
+  padding: 5px;
+}
+body .portfolio main .estudios .container .redes a img:hover {
+  transition: all 500ms;
+  background-color: rgb(247, 247, 247);
+}
+@media (max-width: 1200px) {
+  body .portfolio main .estudios .container {
+    flex-direction: column;
+    gap: 4rem;
+  }
+}
+@keyframes color-animation {
+  0% {
+    color: rgba(255, 255, 255, 0.492);
+  }
+  50% {
+    color: white;
+  }
+  100% {
+    color: rgba(255, 255, 255, 0.492);
+  }
+}
+@media (max-width: 920px) {
+  body .portfolio {
+    flex-direction: column;
+  }
+  body .portfolio .navBar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 15%;
+    flex-direction: row;
+    z-index: 3;
+  }
+  body .portfolio .navBar .img {
+    width: 75px;
+    height: 75px;
+  }
+  body .portfolio .navBar .img .foto {
+    width: 75px;
+    height: 75px;
+  }
+  body .portfolio .navBar nav {
+    margin-left: 0;
+    margin-top: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  body .portfolio .navBar nav ul {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+  }
+  body .portfolio .navBar nav ul li a {
+    align-items: center;
+  }
+  body .portfolio .navBar nav ul li a img {
+    display: block;
+  }
+  body .portfolio .navBar nav ul li a p {
+    font-size: 10px;
+    display: none;
+  }
+  body .portfolio .navBar nav ul li a:hover p {
+    display: block;
+  }
+  body .portfolio main {
+    width: 100%;
+    margin-left: 0;
+  }
+  body .portfolio main .inicio {
+    height: auto;
+    min-height: 100vh;
+  }
+  body .portfolio main .inicio .container {
+    height: auto;
+    min-height: 100vh;
+  }
+  body .portfolio main .sobreMi {
+    height: auto;
+    min-height: 100vh;
+  }
+  body .portfolio main .sobreMi .container {
+    background-color: rgba(255, 255, 255, 0);
+    height: auto;
+    min-height: 100vh;
+  }
+  body .portfolio main .sobreMi .container .datosEInteres {
+    flex-direction: column;
+  }
+  body .portfolio main .sobreMi .container .datosEInteres .interes {
+    width: 100%;
+  }
+  body .portfolio main .sobreMi .container .datosEInteres .datos {
+    width: 100%;
+  }
+  body .portfolio main .skills {
+    height: auto;
+    min-height: 100vh;
+  }
+  body .portfolio main .skills .container {
+    height: auto;
+    min-height: 100vh;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  body .portfolio main .sitios {
+    height: 90%;
+  }
+  body .portfolio main .estudios {
+    height: auto;
+    min-height: 100vh;
+    padding-bottom: 100px;
+  }
+  body .portfolio main .estudios .container {
+    height: auto;
+    min-height: 100vh;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 10px;
+  }
+  body .portfolio main .estudios .container .cursos .finalizados .misCursos div img {
+    width: 70px;
+  }
+}
+@media (max-width: 738px) {
+  body .portfolio .navBar .redes {
+    display: none;
+  }
+  body .portfolio main .estudios {
+    margin-bottom: 5rem;
+  }
+  body .portfolio main .estudios .container .redes {
+    display: block;
+  }
+}
+@media (max-width: 585px) {
+  body .portfolio .paginaCarga {
+    flex-direction: column-reverse;
+  }
+  body .portfolio main .sobreMi .container {
+    padding: 5px;
+  }
+  body .portfolio main .sitios {
+    height: 170%;
+  }
+}
+@media (max-width: 465px) {
+  body .portfolio .navBar .img {
+    display: none;
+  }
+  body .portfolio .main .inicio {
+    max-width: 100vw;
+  }
+  body .portfolio .main .inicio .container {
+    min-width: 100vw;
+  }
+}/*# sourceMappingURL=App.css.map */
