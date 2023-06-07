@@ -1,5 +1,6 @@
 // import { Link } from 'react-router-dom'
 
+
 const Navbar = () => {
     return (
         <div className="navBar">
@@ -9,19 +10,19 @@ const Navbar = () => {
             <nav id="navbar-example2">
                 <ul className="nav nav-pills">
                     <li className="nav-item inicioBtn">
-                        <a href="#inicio" className="active"><img src="src\assets\iconNavbar\home-regular-72.png" alt="icono_inicio"/><p>Inicio</p> </a>
+                        <a href="#inicio" className="active">{/*<img src="src\assets\iconNavbar\home-regular-72.png" alt="icono_inicio"/>*/}<box-icon name='home' color='#c5c5c5'></box-icon><p>Inicio</p> </a>
                     </li>
                     <li className="nav-item">
-                        <a href="#sobreMi"><img src="src\assets\iconNavbar\user-solid-72.png" alt="icono-sobre_mi"/><p>Sobre mi</p></a>
+                        <a href="#sobreMi">{/*<img src="src\assets\iconNavbar\user-solid-72.png" alt="icono-sobre_mi"/>*/}<box-icon type='solid' name='user' color='#c5c5c5'></box-icon><p>Sobre mi</p></a>
                     </li>
                     <li className="nav-item">
-                        <a href="#skills"><img src="src\assets\iconNavbar\brain-regular-72.png" alt="icono_skills"/><p>Skills</p></a>
+                        <a href="#skills">{/*<img src="src\assets\iconNavbar\brain-regular-72.png" alt="icono_skills"/>*/}<box-icon name='brain' color='#c5c5c5' ></box-icon><p>Skills</p></a>
                     </li>
                     <li className="nav-item">
-                        <a href="#sitios"><img src="src\assets\iconNavbar\devices-solid-72.png" alt="icono-sitios"/><p>Sitios</p></a>
+                        <a href="#sitios">{/*<img src="src\assets\iconNavbar\devices-solid-72.png" alt="icono-sitios"/>*/}<box-icon type='solid' name='devices' color='#c5c5c5'></box-icon><p>Sitios</p></a>
                     </li>
                     <li className="nav-item">
-                        <a href="#estudios"><img src="src\assets\iconNavbar\certification-regular-72.png" alt="icono_estudios"/><p>Estudios</p></a>
+                        <a href="#estudios">{/*<img src="src\assets\iconNavbar\certification-regular-72.png" alt="icono_estudios"/>*/}<box-icon name='certification' color='#c5c5c5'></box-icon><p>Estudios</p></a>
                     </li>
                 </ul>
             </nav>

@@ -101,7 +101,7 @@ body{
                             flex-direction: column;
                             justify-content: center;
                             align-items: flex-start;
-                            img{
+                            box-icon{
                                 display: none;
                                 width: 30px;
                             }
@@ -519,6 +519,11 @@ body{
                                     img{
                                         width: 70px;
                                     }
+                                    .udemy{
+                                        background-color: white;
+                                        padding: 1px;
+                                        border-radius: 2px;
+                                    }
                                     .utn{
                                         background-color: white;
                                         padding: 1px;
@@ -576,6 +581,8 @@ body{
                         justify-content: space-between;
                         display: none;
                         a{
+                            margin-left: 10px;
+                            margin-right: 10px;
                             img{
                                 width: 35px;
                                 background-color: rgb(99, 99, 99);
@@ -640,7 +647,7 @@ body{
                         li{
                             a{
                                 align-items: center;
-                                img{
+                                box-icon{
                                     display: block;
                                 }
                                 p{
