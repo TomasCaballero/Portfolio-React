@@ -16,7 +16,7 @@ const Estudios = () => {
                         <h4>ESTUDIOS EN CURSO</h4>
                         <div className="misCursos">
                             <div>- MASTER EN REACT JS - <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Udemy_logo.svg/1920px-Udemy_logo.svg.png" alt="UDEMY" className="udemy" /></div>
-                            <div>- DIPLOMATURA EN PROGRAMACIÓN WEB FULL STACK - <img src="src\assets\cursos\utn.png" alt="UTN" className="utn" /></div>
+                            <div>- DIPLOMATURA EN PROGRAMACIÓN WEB FULL STACK - <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/UTN_logo.jpg" alt="UTN" className="utn" /></div>
                         </div>
                     </div>
                 </div>
